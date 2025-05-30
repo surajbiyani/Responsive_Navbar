@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation bar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hidden checkbox for toggling menu -->
+    <input type="checkbox" id="menu-toggle" hidden />
+
+    <header>
+      <div>
+        <div class="logo-container">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.1d7TQI67pwfr0F5jqTgD1AHaGw&pid=Api&P=0&h=180"
+            alt="logo-img"
+          />
+          <span>SNB_FrontEnd2000</span>
+        </div>
+
+        <div class="nav-user-container">
+          <nav class="nav-links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li class="Courses">
+                <span>Course</span> <span class="down-arrow">🔻</span>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/watch?v=0_lL28UmWg8&list=PL21krUqj2uGCtLYRIXuua5wTkljv9Ij0x&index=2"
+                      target="_blank"
+                      >Full Html Course for Beginner</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/watch?v=DSpvDp8uiCo&list=PL21krUqj2uGAIao9KVSQAotw22Nl3zWD4"
+                      target="_blank"
+                      >Full Css Course for Beginner</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/watch?v=RGzfiTL9-O0&list=PL21krUqj2uGBriEcQvS_ZwN_IGXMSVu3f"
+                      target="_blank"
+                      >Full Javascript Course for Beginner</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="user-icon-name">
+            <div class="green-dot">
+              <img src="profile.png" alt="profile_photo" />
+            </div>
+            <span class="username">Suraj Biyani</span>
+            <label for="menu-toggle" class="close">❌</label>
+          </div>
+        </div>
+
+        <!-- Hamburger icon to open menu -->
+        <label for="menu-toggle" class="hamburger">
+          <img src="menu.png" alt="menu_img" />
+        </label>
+      </div>
+    </header>
+  </body>
+</html>
